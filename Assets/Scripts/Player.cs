@@ -7,11 +7,14 @@ public class Player : MonoBehaviour
     public float speed;
     public float jumpForce;
     public int extraJumpsValue;
+    public float enemyForce;
+    public bool invulnerable;
 
     private float moveInput;
-    private Rigidbody2D rig;
+    private Rigidbody2D rb;
     private SpriteRenderer spr;
     private int extraJumps;
+    private float time;
 
     public bool isGrounded;
     public Transform groundCheck;
@@ -25,7 +28,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        rig = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         spr = GetComponent<SpriteRenderer>();
         extraJumps = extraJumpsValue;
     }
@@ -34,7 +37,7 @@ public class Player : MonoBehaviour
     {
         //movimento do personagem
         moveInput = Input.GetAxis("Horizontal");
-        rig.velocity = new Vector2(moveInput * speed, rig.velocity.y);
+        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
         //vira o personagem pra direita ou pra esquerda
         if(moveInput < 0)
@@ -59,20 +62,33 @@ public class Player : MonoBehaviour
         {
             extraJumps = extraJumpsValue;
         }
-        
+        time += Time.deltaTime;
+        if(time >= 1)
+        {
+            invulnerable = false;
+        }
+
         // pula
         if(Input.GetButtonDown("Jump") && extraJumps > 0) 
         {
-            rig.velocity = Vector2.up * jumpForce;
+            rb.velocity = Vector2.up * jumpForce;
             extraJumps--;
         } else if(Input.GetButtonDown("Jump") && extraJumpsValue == 0 && isGrounded)
         {
-            rig.velocity = Vector2.up * jumpForce;
-        } 
-     
-        
+            rb.velocity = Vector2.up * jumpForce;
+        }  
     }
    
+   void OnCollisionEnter2D(Collision2D other) 
+    {
+         if(other.gameObject.layer == 9 && !invulnerable)
+         {
+             time = 0;
+             invulnerable = true;
+             GameController.instance.LoseLife();
+             rb.AddForce(new Vector2(0f, enemyForce), ForceMode2D.Impulse);
+         }
+    }
   
 }
 

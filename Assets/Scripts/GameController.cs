@@ -2,12 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class LifeCount : MonoBehaviour
+public class GameController : MonoBehaviour
 {
-
+    public static GameController instance;
     public Image[] lives;
     public int livesRemaining;
+
+    void Start()
+    {
+        instance = this;
+    }
 
     public void LoseLife()
     {
@@ -17,10 +23,10 @@ public class LifeCount : MonoBehaviour
         //esconde uma imagem de coração
         lives[livesRemaining].enabled = false;
 
-        //se ficar sem vida, perde o jogo
+        //se ficar sem vida, da restart na fase
         if(livesRemaining == 0)
         {
-            print("Game Over");
+            Restart();
         }
 
     }
@@ -33,5 +39,8 @@ public class LifeCount : MonoBehaviour
         }
     }
 
-
+    void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }

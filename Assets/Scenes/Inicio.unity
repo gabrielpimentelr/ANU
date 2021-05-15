@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 1287762043}
   - component: {fileID: 1287762042}
   - component: {fileID: 1287762044}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1737,6 +1737,14 @@ PrefabInstance:
     - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3761739380804868355, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
+      propertyPath: isGrounded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3761739380804868355, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 2048
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868357, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_Name

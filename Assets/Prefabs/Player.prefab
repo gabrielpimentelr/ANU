@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 3761739380804868359}
   - component: {fileID: 3761739380804868358}
   - component: {fileID: 3761739380804868355}
-  - component: {fileID: 1151560665060924319}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -190,21 +189,11 @@ MonoBehaviour:
   speed: 5
   jumpForce: 12
   extraJumpsValue: 1
+  enemyForce: 5
+  invulnerable: 0
   isGrounded: 0
   groundCheck: {fileID: 3761739380398582763}
   checkRadius: 0.1
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 64
---- !u!114 &1151560665060924319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3761739380804868357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61283a8ae81e57149ad3cb2ed0918123, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+    m_Bits: 2048

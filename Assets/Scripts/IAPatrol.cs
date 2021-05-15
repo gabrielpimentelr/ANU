@@ -10,8 +10,10 @@ public class IAPatrol : MonoBehaviour
     public LayerMask whatIsGround;
     public LayerMask whatIsEnemy;
     public Transform groundCheck;
+    public Transform footGroundCheck;
     public Time time;
 
+    public bool isGrounded;
     private Rigidbody2D rb;
     private SpriteRenderer spr;
     public Collider2D bc;
@@ -29,10 +31,12 @@ public class IAPatrol : MonoBehaviour
 
     void FixedUpdate()
     {
+        isGrounded = Physics2D.OverlapCircle(footGroundCheck.position,checkRadius,whatIsGround);
         if(mustPatrol)
         {
             mustTurn = !Physics2D.OverlapCircle(groundCheck.position,checkRadius,whatIsGround);
         }
+        
     }
 
 
@@ -46,9 +50,9 @@ public class IAPatrol : MonoBehaviour
 
     void Patrol()
     {
-        if(mustTurn || bc.IsTouchingLayers(whatIsGround) || bc.IsTouchingLayers(whatIsEnemy))
+        if(isGrounded && mustTurn || bc.IsTouchingLayers(whatIsGround) || bc.IsTouchingLayers(whatIsEnemy))
         {
-            Flip();
+        Flip();
         }
         rb.velocity = new Vector2(speed, rb.velocity.y);
     }
