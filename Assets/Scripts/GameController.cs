@@ -39,7 +39,7 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void Restart()
+    public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

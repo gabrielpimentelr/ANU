@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatIsGround;
+
     //private bool doubleJump;
 
   
@@ -87,6 +88,11 @@ public class Player : MonoBehaviour
              invulnerable = true;
              GameController.instance.LoseLife();
              rb.AddForce(new Vector2(0f, enemyForce), ForceMode2D.Impulse);
+         }
+
+         if(other.gameObject.tag == "Espinho")
+         {
+             GameController.instance.Restart();
          }
     }
   

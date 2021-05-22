@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bullet
   - Enemy
+  - Espinho
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Enemy
   - Hit
   - Ground
-  - 
+  - DestruirObjetos
   - 
   - 
   - 
