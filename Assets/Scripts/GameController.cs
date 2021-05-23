@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     public static GameController instance;
     public Image[] lives;
     public int livesRemaining;
+    public bool playerDie;
 
     void Start()
     {
@@ -24,19 +25,11 @@ public class GameController : MonoBehaviour
         lives[livesRemaining].enabled = false;
 
         //se ficar sem vida, da restart na fase
-        if(livesRemaining == 0)
+        if(livesRemaining <= 0)
         {
-            Restart();
+            Player.instance.Die();
         }
 
-    }
-
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Return))
-        {
-            LoseLife();
-        }
     }
 
     public void Restart()

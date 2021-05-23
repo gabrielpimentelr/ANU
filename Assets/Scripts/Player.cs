@@ -9,19 +9,21 @@ public class Player : MonoBehaviour
     public int extraJumpsValue;
     public float enemyForce;
     public bool invulnerable;
-
+    
+    public static Player instance;
+    private bool facingRight = true;
     private float moveInput;
     private Rigidbody2D rb;
-    private SpriteRenderer spr;
     private int extraJumps;
     private float time;
+    public Animator anim;
 
     public bool isGrounded;
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatIsGround;
+    public bool playerDie;
 
-    //private bool doubleJump;
 
   
     
@@ -30,8 +32,10 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        spr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+        playerDie = false;
         extraJumps = extraJumpsValue;
+        instance = this;
     }
 
     void FixedUpdate()
@@ -41,18 +45,20 @@ public class Player : MonoBehaviour
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
         //vira o personagem pra direita ou pra esquerda
-        if(moveInput < 0)
+
+        if (moveInput < 0 && facingRight)
         {
-            spr.flipX = true;
+            Flip();
         }
-        else if(moveInput > 0)
+        if (moveInput > 0 && !facingRight)
         {
-            spr.flipX = false;
+            Flip();
         }
 
         // cria um círculo no pé do personagem e armazena na variável isGrounded
         isGrounded = Physics2D.OverlapCircle(groundCheck.position,checkRadius,whatIsGround);
 
+        
        
     }
     // Update is called once per frame
@@ -77,7 +83,13 @@ public class Player : MonoBehaviour
         } else if(Input.GetButtonDown("Jump") && extraJumpsValue == 0 && isGrounded)
         {
             rb.velocity = Vector2.up * jumpForce;
-        }  
+        } 
+
+        //die
+        if(playerDie && time >= 0.292f)
+        {
+            GameController.instance.Restart();
+        }
     }
    
    void OnCollisionEnter2D(Collision2D other) 
@@ -92,8 +104,21 @@ public class Player : MonoBehaviour
 
          if(other.gameObject.tag == "Espinho")
          {
-             GameController.instance.Restart();
+             Die();
          }
+    }
+
+    void Flip()
+    {
+        transform.Rotate(0f, 180f, 0f);
+        facingRight = !facingRight;
+    }
+
+    public void Die()
+    {
+        time = 0;
+        playerDie = true;
+        anim.SetTrigger("die");
     }
   
 }
