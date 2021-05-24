@@ -106,6 +106,10 @@ public class Player : MonoBehaviour
          {
              Die();
          }
+          if(other.gameObject.tag == "Saw")
+         {
+             Die();
+         }
     }
 
     void Flip()
