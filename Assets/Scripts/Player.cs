@@ -24,6 +24,8 @@ public class Player : MonoBehaviour
     public LayerMask whatIsGround;
     public bool playerDie;
 
+    bool isBlowing;
+
 
   
     
@@ -76,7 +78,7 @@ public class Player : MonoBehaviour
         }
 
         // pula
-        if(Input.GetButtonDown("Jump") && extraJumps > 0) 
+        if(Input.GetButtonDown("Jump") && extraJumps > 0 && !isBlowing) 
         {
             rb.velocity = Vector2.up * jumpForce;
             extraJumps--;
@@ -110,6 +112,20 @@ public class Player : MonoBehaviour
          {
              Die();
          }
+    }
+     void OnTriggerStay2D(Collider2D collider)
+    {
+        if(collider.gameObject.layer == 13)
+        {
+            isBlowing = true;
+        }
+    }
+    void OnTriggerExit2D(Collider2D collider)
+    {
+        if(collider.gameObject.layer == 13)
+        {
+            isBlowing = false;
+        }
     }
 
     void Flip()
