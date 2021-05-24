@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
     public bool playerDie;
+    
 
 
   
