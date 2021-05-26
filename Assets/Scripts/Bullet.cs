@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D rb;
     public int damage;
     public GameObject impactEffect;
+    //commit
 
     // Start is called before the first frame update
     void Start()
