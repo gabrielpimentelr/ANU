@@ -116,7 +116,7 @@ public class AuthManager : MonoBehaviour
                 FirebaseException firebaseEx = RegisterTask.Exception.GetBaseException() as FirebaseException;
                 AuthError errorCode = (AuthError)firebaseEx.ErrorCode;
 
-                string message = "Falha no cadastro";
+                string message = "Verifique seu email (exemplo@exemplo.com)";
                 switch (errorCode)
                 {
                     case AuthError.MissingEmail:
