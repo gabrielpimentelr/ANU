@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using Firebase;
 using Firebase.Auth;
@@ -16,11 +17,15 @@ public class AuthManager : MonoBehaviour
     public TMP_InputField passwordLoginField;
     public TMP_Text warningLoginText;
     public TMP_Text confirmLoginText;
+    public GameObject tela;
+    public GameObject sair;
+    public GameObject sair_tela;
+    public GameObject login_tela;
 
     [Header("Register")]
-   public TMP_InputField usernameRegisterField;
-   public TMP_InputField emailRegisterField;
-   public TMP_InputField passwordRegisterField;
+    public TMP_InputField usernameRegisterField;
+    public TMP_InputField emailRegisterField;
+    public TMP_InputField passwordRegisterField;
     public TMP_InputField passwordRegisterVerifyField;
     public TMP_Text warningRegisterText;
 
@@ -92,6 +97,10 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             warningLoginText.text = "";
             confirmLoginText.text = "Login efetuado com sucesso";
+            tela.SetActive(true);
+            sair.SetActive(true);
+            login_tela.SetActive(false);
+            sair_tela.SetActive(false);
         }
     }
 
