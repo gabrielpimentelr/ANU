@@ -10,25 +10,43 @@ public class GameController : MonoBehaviour
     public Image[] lives;
     public int livesRemaining;
     public bool playerDie;
+    public bool invulnerable;
+    public float time;
+    
 
     void Start()
     {
         instance = this;
     }
+    
+    void Update()
+    {
+        time += Time.deltaTime;
+        if(time >= 1)
+        {
+            invulnerable = false;
+        }
+    }
 
     public void LoseLife()
     {
-        //diminiu o valor das vidas restantes
-        livesRemaining--;
-
-        //esconde uma imagem de coração
-        lives[livesRemaining].enabled = false;
-
-        //se ficar sem vida, da restart na fase
-        if(livesRemaining <= 0)
+        if (!invulnerable)
         {
-            Player.instance.Die();
+            invulnerable = true;
+            time = 0;
+            //diminiu o valor das vidas restantes
+            livesRemaining--;
+
+            //esconde uma imagem de coração
+            lives[livesRemaining].enabled = false;
+
+            //se ficar sem vida, da restart na fase
+            if(livesRemaining <= 0)
+            {
+                Player.instance.Die();
+            }
         }
+        
 
     }
 

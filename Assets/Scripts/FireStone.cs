@@ -58,7 +58,7 @@ public class FireStone : MonoBehaviour
     {
         if(other.gameObject.tag == "Player" && fire == true)
         {
-            GameController.instance.Restart();
+            GameController.instance.LoseLife();
 
         }
 

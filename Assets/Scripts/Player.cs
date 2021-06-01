@@ -8,15 +8,15 @@ public class Player : MonoBehaviour
     public float jumpForce;
     public int extraJumpsValue;
     public float enemyForce;
-    public bool invulnerable;
+    public float EspinhoForce;
     
     public static Player instance;
     private bool facingRight = true;
     private float moveInput;
     private Rigidbody2D rb;
     private int extraJumps;
-    private float time;
     public Animator anim;
+    private float time;
 
     public bool isGrounded;
     public Transform groundCheck;
@@ -66,15 +66,12 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+
+        time += Time.deltaTime;
         // verifica se o personagem está no chão
         if(isGrounded)
         {
             extraJumps = extraJumpsValue;
-        }
-        time += Time.deltaTime;
-        if(time >= 1)
-        {
-            invulnerable = false;
         }
 
         // pula
@@ -96,21 +93,20 @@ public class Player : MonoBehaviour
    
    void OnCollisionEnter2D(Collision2D other) 
     {
-         if(other.gameObject.layer == 9 && !invulnerable)
+         if(other.gameObject.layer == 9)
          {
-             time = 0;
-             invulnerable = true;
              GameController.instance.LoseLife();
              rb.AddForce(new Vector2(0f, enemyForce), ForceMode2D.Impulse);
          }
 
          if(other.gameObject.tag == "Espinho")
          {
-             Die();
+             GameController.instance.LoseLife();
+             rb.AddForce(new Vector2(0f, EspinhoForce), ForceMode2D.Impulse);
          }
           if(other.gameObject.tag == "Saw")
          {
-             Die();
+             GameController.instance.LoseLife();
          }
     }
      void OnTriggerStay2D(Collider2D collider)

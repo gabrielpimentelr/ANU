@@ -43562,6 +43562,8 @@ MonoBehaviour:
   - {fileID: 1378779946}
   livesRemaining: 3
   playerDie: 0
+  invulnerable: 0
+  time: 0
 --- !u!4 &1728040972
 Transform:
   m_ObjectHideFlags: 0
@@ -46393,6 +46395,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 229689198054081942, guid: 881d1105ab4d59a499c697995594d7d3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 229689198054081942, guid: 881d1105ab4d59a499c697995594d7d3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 229689198054081942, guid: 881d1105ab4d59a499c697995594d7d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.41
       objectReference: {fileID: 0}
@@ -46523,14 +46533,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.64
       objectReference: {fileID: 0}
@@ -46573,18 +46575,6 @@ PrefabInstance:
     - target: {fileID: 3761739380804868357, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3761739380804868358, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
-      propertyPath: m_Radius
-      value: 0.09909044
-      objectReference: {fileID: 0}
-    - target: {fileID: 3761739380804868358, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.012546003
-      objectReference: {fileID: 0}
-    - target: {fileID: 3761739380804868358, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.045598593
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}

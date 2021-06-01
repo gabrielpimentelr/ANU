@@ -27439,6 +27439,8 @@ MonoBehaviour:
   - {fileID: 1378779946}
   livesRemaining: 3
   playerDie: 0
+  invulnerable: 0
+  time: 0
 --- !u!4 &1728040972
 Transform:
   m_ObjectHideFlags: 0

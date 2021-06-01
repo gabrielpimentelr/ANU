@@ -8831,6 +8831,8 @@ MonoBehaviour:
   - {fileID: 0}
   livesRemaining: 3
   playerDie: 0
+  invulnerable: 0
+  time: 0
 --- !u!4 &1328653515
 Transform:
   m_ObjectHideFlags: 0
@@ -9221,14 +9223,6 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.47
       objectReference: {fileID: 0}
@@ -9269,16 +9263,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868355, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
-      propertyPath: playerDie
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3761739380804868355, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
-      propertyPath: isGrounded
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3761739380804868355, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
-      propertyPath: whatIsGround.m_Bits
-      value: 2048
+      propertyPath: EspinhoForce
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868357, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_Name

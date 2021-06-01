@@ -144,13 +144,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
-      value: 2.25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: ativatetime
-      value: 2.7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -213,6 +217,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -327,6 +335,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -535,6 +547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
       value: 0
@@ -596,6 +612,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -652,6 +672,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -712,71 +736,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6720952717362784665, guid: e1596dceaa0fb314e9d44b0412127f43, type: 3}
   m_PrefabInstance: {fileID: 1477184882}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &77950038
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (127)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 127
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 15.097002
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &99150348 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -792,6 +751,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -1158,6 +1121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -1201,6 +1168,75 @@ PrefabInstance:
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+--- !u!1001 &134723073
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 122
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -1361,6 +1397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -1412,6 +1452,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 512195974}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &197962103
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.781395
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &202679977 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5730930670173213762, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
@@ -1427,6 +1536,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -1507,6 +1620,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -1688,6 +1805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 84
@@ -1843,13 +1964,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
-      value: 2.4
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: ativatetime
-      value: 2.7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -1954,6 +2079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -1965,6 +2094,75 @@ PrefabInstance:
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_LocalPosition.y
       value: -3.697717
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+--- !u!1001 &253246183
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (131)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 131
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.311996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2085,71 +2283,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5730930670173213762, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
   m_PrefabInstance: {fileID: 835114449}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &290271265
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (120)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 1.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.9454
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &293162603 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -2413,6 +2546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -2539,6 +2676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2620,6 +2761,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -2756,6 +2901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2823,6 +2972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -2885,6 +3038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 86
@@ -2936,71 +3093,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5730930670173213762, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
   m_PrefabInstance: {fileID: 1441431652}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &405802148
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (124)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 124
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.164001
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &409720408 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1311412005501700973, guid: b4db1ce600ebe2c4393806c316648609, type: 3}
@@ -3079,6 +3171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -3130,6 +3226,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 1454389585}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &436230139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (130)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!1001 &444551445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3140,6 +3305,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -3207,6 +3376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
       value: 0
@@ -3265,6 +3438,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 1574935806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &464480146 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 878841473}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &482277239 stripped
 Transform:
@@ -3406,6 +3584,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!4 &493887413 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 715726709}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &494532857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3416,6 +3599,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -3610,6 +3797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -3656,6 +3847,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+--- !u!4 &513093038 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 134723073}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &517304880 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -3902,6 +4098,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
       value: 0
@@ -3963,6 +4163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -4019,6 +4223,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 1955274141}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &544059429 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 992697387}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &544636112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4029,6 +4238,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -4086,6 +4299,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -4148,6 +4365,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -4256,11 +4477,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 2015001525}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &574255155 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 1953697822}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &579099701
 GameObject:
@@ -4371,6 +4587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 106
@@ -4432,6 +4652,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -4545,11 +4769,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5730930670173213762, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
   m_PrefabInstance: {fileID: 649833563}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &594076462 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 405802148}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &603211299 stripped
 Transform:
@@ -4821,6 +5040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
       value: 0
@@ -4881,6 +5104,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -4996,6 +5223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -5067,7 +5298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 507302387576137668, guid: 74583f0a9d49ca94cbc9e8150630923e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 507302387576137668, guid: 74583f0a9d49ca94cbc9e8150630923e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5125,6 +5356,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -5336,6 +5571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 111
@@ -5512,6 +5751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -5615,11 +5858,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
---- !u!4 &695264089 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 1400071162}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &697421711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5730930670173213762, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
@@ -5713,6 +5951,144 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &708552718
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 127
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+--- !u!1001 &715726709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 123
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.859402
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &722891448 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -5799,6 +6175,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5730930670173213762, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
   m_PrefabInstance: {fileID: 556897027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &739595805 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 436230139}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &745036382 stripped
 Transform:
@@ -6185,6 +6566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 52
@@ -6266,6 +6651,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -6382,11 +6771,6 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: 507302387576137668, guid: 74583f0a9d49ca94cbc9e8150630923e, type: 3}
   m_PrefabInstance: {fileID: 617402133}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &800343654 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 1980263211}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &805958499 stripped
 Transform:
@@ -6543,6 +6927,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
+--- !u!1001 &833182618
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.9394
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!1001 &835114449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6656,6 +7109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -6712,6 +7169,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -6772,11 +7233,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 1537446926}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &857768297 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 290271265}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &864050570 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -6797,6 +7253,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 1294359477}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &878841473
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!1001 &880574347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6807,6 +7332,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -15328,7 +15857,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 10
-      m_TileSpriteIndex: 10
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -27093,8 +27622,8 @@ Tilemap:
     m_Data: {fileID: 2961677793244026094, guid: fc584d329b77b9545b9c9c8bb829e553, type: 3}
   - m_RefCount: 412
     m_Data: {fileID: 772467259971446145, guid: fc584d329b77b9545b9c9c8bb829e553, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -2615569002567638836, guid: fc584d329b77b9545b9c9c8bb829e553, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 5394353238224683576, guid: fc584d329b77b9545b9c9c8bb829e553, type: 3}
   - m_RefCount: 1
@@ -27103,8 +27632,8 @@ Tilemap:
     m_Data: {fileID: -8554552240816166350, guid: fc584d329b77b9545b9c9c8bb829e553, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 5155531445672774593, guid: fc584d329b77b9545b9c9c8bb829e553, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -2615569002567638836, guid: fc584d329b77b9545b9c9c8bb829e553, type: 3}
   - m_RefCount: 20
     m_Data: {fileID: -223391217462372170, guid: fc584d329b77b9545b9c9c8bb829e553, type: 3}
   - m_RefCount: 1
@@ -27182,6 +27711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
       value: 0
@@ -27242,6 +27775,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -27372,6 +27909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -27418,6 +27959,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+--- !u!4 &917251345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 1793094835}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &920872217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27431,7 +27977,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1311412005501700973, guid: b4db1ce600ebe2c4393806c316648609, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1311412005501700973, guid: b4db1ce600ebe2c4393806c316648609, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27504,6 +28050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -27560,6 +28110,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -27664,6 +28218,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
+--- !u!1001 &946518883
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 124
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.158001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &950778237 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -27709,6 +28332,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -27822,6 +28449,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 590756293}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &992697387
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 129
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.701397
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &997149798 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -27837,6 +28533,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 749408157094248855, guid: d678b02162c861643a1b56ca0dcc7c89, type: 3}
   m_PrefabInstance: {fileID: 1915246828}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1007396259
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 121
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.238001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &1007660889 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -27967,6 +28732,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -28148,6 +28917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -28214,6 +28987,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -28334,6 +29111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -28391,6 +29172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -28447,71 +29232,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5730930670173213762, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
   m_PrefabInstance: {fileID: 410521274}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1082276134
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (126)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 0.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 126
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.798401
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!1001 &1087651645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28626,11 +29346,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
---- !u!4 &1098067329 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 77950038}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1104178869 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -28796,11 +29511,6 @@ Transform:
   m_Father: {fileID: 1717669831}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1118633924 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 2008173294}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1119927407
 GameObject:
   m_ObjectHideFlags: 0
@@ -28883,6 +29593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -28945,13 +29659,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
-      value: 2.7
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: ativatetime
-      value: 2.7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -29003,6 +29721,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 1018807108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1135852002 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 708552718}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1137428835 stripped
 Transform:
@@ -29087,6 +29810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
       value: 0
@@ -29148,13 +29875,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
-      value: 2.55
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: ativatetime
-      value: 2.7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -29242,71 +29973,6 @@ Transform:
   m_Father: {fileID: 236424216}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1177771486
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (131)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 131
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 16.329
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!1001 &1179148710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29449,6 +30115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -29505,6 +30175,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -29572,6 +30246,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -29687,6 +30365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 87
@@ -29743,6 +30425,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -29805,6 +30491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 109
@@ -29861,6 +30551,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -29975,6 +30669,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5730930670173213762, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
   m_PrefabInstance: {fileID: 131401782}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1277960467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 833182618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1281045504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29985,6 +30684,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -30053,6 +30756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 90
@@ -30114,71 +30821,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5730930670173213762, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
   m_PrefabInstance: {fileID: 1660409737}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1314408875
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (130)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 130
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 16.017
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &1315297289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -30194,6 +30836,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -30252,6 +30898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -30308,6 +30958,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -30369,6 +31023,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -30511,6 +31169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -30567,6 +31229,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -30638,6 +31304,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -30694,6 +31364,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -30766,6 +31440,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -30893,71 +31571,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 68380780}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1400071162
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (128)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 128
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 15.408999
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &1406423303 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -30988,6 +31601,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -31039,6 +31656,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+--- !u!4 &1437948447 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 946518883}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1441431652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31190,21 +31812,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trampoline (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 749408157094248853, guid: d678b02162c861643a1b56ca0dcc7c89, type: 3}
-      propertyPath: jumpForce
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 749408157094248855, guid: d678b02162c861643a1b56ca0dcc7c89, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 749408157094248855, guid: d678b02162c861643a1b56ca0dcc7c89, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 70.43
+      value: 70.35
       objectReference: {fileID: 0}
     - target: {fileID: 749408157094248855, guid: d678b02162c861643a1b56ca0dcc7c89, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.71
+      value: -2.6
       objectReference: {fileID: 0}
     - target: {fileID: 749408157094248855, guid: d678b02162c861643a1b56ca0dcc7c89, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31255,6 +31873,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -31317,6 +31939,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -31385,6 +32011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
       value: 0
@@ -31446,6 +32076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -31502,6 +32136,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -31651,6 +32289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -31717,6 +32359,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -31915,18 +32561,18 @@ Transform:
   - {fileID: 864071436}
   - {fileID: 308698632}
   - {fileID: 569341684}
-  - {fileID: 857768297}
-  - {fileID: 2020469410}
-  - {fileID: 574255155}
-  - {fileID: 1118633924}
-  - {fileID: 594076462}
-  - {fileID: 800343654}
-  - {fileID: 1906873575}
-  - {fileID: 1098067329}
-  - {fileID: 695264089}
-  - {fileID: 1982158642}
-  - {fileID: 1723771176}
-  - {fileID: 1918367189}
+  - {fileID: 1277960467}
+  - {fileID: 1694715825}
+  - {fileID: 513093038}
+  - {fileID: 493887413}
+  - {fileID: 1437948447}
+  - {fileID: 464480146}
+  - {fileID: 1571025728}
+  - {fileID: 1135852002}
+  - {fileID: 917251345}
+  - {fileID: 544059429}
+  - {fileID: 739595805}
+  - {fileID: 1910691067}
   m_Father: {fileID: 236424216}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -31940,6 +32586,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -32073,6 +32723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -32192,6 +32846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -32238,6 +32896,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+--- !u!4 &1571025728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 197962103}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1574935806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32248,6 +32911,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -32366,6 +33033,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -32493,6 +33164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -32564,6 +33239,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -32679,6 +33358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
       value: 0
@@ -32786,71 +33469,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
---- !u!1001 &1610592747
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (129)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 129
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 15.718403
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!1001 &1612837150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32861,6 +33479,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -32923,13 +33545,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
-      value: 2.1
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: ativatetime
-      value: 2.7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -32987,6 +33613,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -33068,71 +33698,6 @@ Transform:
   m_Father: {fileID: 236424216}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1649623746
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (121)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 1.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 121
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 13.244001
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!1001 &1651236302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33200,6 +33765,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -33432,6 +34001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
       value: 0
@@ -33543,6 +34116,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 1674422311}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1694715825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 1007396259}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1697605608
 PrefabInstance:
@@ -33709,11 +34287,6 @@ Transform:
   m_Father: {fileID: 1015353220}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1723771176 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 1314408875}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1728040970
 GameObject:
   m_ObjectHideFlags: 0
@@ -33749,6 +34322,8 @@ MonoBehaviour:
   - {fileID: 1378779946}
   livesRemaining: 3
   playerDie: 0
+  invulnerable: 0
+  time: 0
 --- !u!4 &1728040972
 Transform:
   m_ObjectHideFlags: 0
@@ -33841,6 +34416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -33897,6 +34476,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -34015,6 +34598,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -34148,6 +34735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
       value: 0
@@ -34265,6 +34856,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -34456,6 +35051,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 380530905}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1793094835
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1514962248}
+    m_Modifications:
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Name
+      value: FireStone (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: time
+      value: -2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: ativatetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.391995
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 91.89118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!1001 &1793988700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34466,6 +35130,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -34663,6 +35331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -34719,6 +35391,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -34789,6 +35465,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -35028,6 +35708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -35084,6 +35768,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -35201,11 +35889,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
---- !u!4 &1906873575 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 1082276134}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1907783342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35284,6 +35967,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 1327026717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1910691067 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+  m_PrefabInstance: {fileID: 253246183}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1913728159
 GameObject:
@@ -35391,11 +36079,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 1643451198}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1918367189 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 1177771486}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1921153311 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -35468,6 +36151,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -35589,71 +36276,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6720952717362784665, guid: e1596dceaa0fb314e9d44b0412127f43, type: 3}
   m_PrefabInstance: {fileID: 1935400010}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1953697822
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (122)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 122
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 13.555999
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!1001 &1955274141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35664,6 +36286,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -35730,6 +36356,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -35834,76 +36464,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c76ce5d4e98930144a1c1386d3995e77, type: 3}
---- !u!1001 &1980263211
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (125)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 1.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 125
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.476
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
---- !u!4 &1982158642 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 1610592747}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1987286262 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 507302387576137668, guid: 74583f0a9d49ca94cbc9e8150630923e, type: 3}
@@ -36075,71 +36635,6 @@ Transform:
   m_Father: {fileID: 233204115}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2008173294
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1514962248}
-    m_Modifications:
-    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_Name
-      value: FireStone (123)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: time
-      value: 1.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: ativatetime
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_RootOrder
-      value: 123
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 13.865402
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 91.89118
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
 --- !u!4 &2014016790 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
@@ -36213,21 +36708,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
-      value: 1.95
+      value: -0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: ativatetime
-      value: 2.7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 119
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.4010375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.631999
+      value: 12.6541
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -36272,11 +36775,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
   m_PrefabInstance: {fileID: 1227850029}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2020469410 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
-  m_PrefabInstance: {fileID: 1649623746}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2020690567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36287,6 +36785,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -36546,6 +37048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 91
@@ -36602,6 +37108,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -36717,6 +37227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -36778,6 +37292,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -36843,6 +37361,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
@@ -36920,6 +37442,10 @@ PrefabInstance:
     - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_Name
       value: FireStone (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214435, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: time
@@ -37130,6 +37656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireStone
       objectReference: {fileID: 0}
+    - target: {fileID: 3062371338508214433, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3062371338508214440, guid: fabf5ab2c4b148549810e16453e1b74d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -37189,11 +37719,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.94
+      value: -7.68
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.75
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_LocalPosition.z
