@@ -122,7 +122,7 @@ TargetJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_Anchor: {x: 0, y: 0}
-  m_Target: {x: 14.76, y: 1.0999999}
+  m_Target: {x: 21.57122, y: -0.75874555}
   m_AutoConfigureTarget: 1
   m_MaxForce: 10000
   m_DampingRatio: 1
@@ -165,4 +165,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec218c75d7d36374d8b15731bb72ac1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallingTime: 0.5
+  fallingTime: 0.25
