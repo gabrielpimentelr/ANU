@@ -46,7 +46,6 @@ public class IAPatrol : MonoBehaviour
         {
             Patrol();
         }
-        Debug.Log(time);
     }
 
     void Patrol()

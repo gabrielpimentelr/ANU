@@ -222,7 +222,7 @@ MonoBehaviour:
   jumpForce: 12
   extraJumpsValue: 1
   enemyForce: 10
-  EspinhoForce: 1
+  EspinhoForce: 5
   anim: {fileID: 0}
   isGrounded: 0
   groundCheck: {fileID: 3761739380398582763}
