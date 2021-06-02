@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     private int extraJumps;
     public Animator anim;
     private float time;
+    public float fireRate;
 
     public bool isGrounded;
     public Transform groundCheck;
@@ -103,6 +104,7 @@ public class Player : MonoBehaviour
          {
              GameController.instance.LoseLife();
              rb.AddForce(new Vector2(0f, EspinhoForce), ForceMode2D.Impulse);
+             isGrounded = true;
          }
           if(other.gameObject.tag == "Saw")
          {
@@ -137,5 +139,6 @@ public class Player : MonoBehaviour
         anim.SetTrigger("die");
     }
   
+    
 }
 

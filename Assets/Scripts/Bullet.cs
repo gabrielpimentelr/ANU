@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D rb;
     public int damage;
     public GameObject impactEffect;
+    private bool damaged;
     //commit
 
     // Start is called before the first frame update
@@ -19,8 +20,9 @@ public class Bullet : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) 
     {
         EnemyHealth enemy = other.GetComponent<EnemyHealth>();
-        if(enemy != null)
+        if(enemy != null && !damaged)
         {
+            damaged = true;
             enemy.TakeDamage();
         }
         Instantiate(impactEffect, transform.position, transform.rotation);
