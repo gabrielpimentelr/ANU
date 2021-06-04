@@ -236,6 +236,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1291542023257251806, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
+      propertyPath: sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1291542023257251806, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: BORA TOMAR UMA
+      objectReference: {fileID: 0}
+    - target: {fileID: 1291542023257251806, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: PARTIU TRAILER
+      objectReference: {fileID: 0}
+    - target: {fileID: 1291542023257251806, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: VAMO TOMAR UMA GELADA
+      objectReference: {fileID: 0}
     - target: {fileID: 1291542023257251811, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
       propertyPath: m_Name
       value: Aggro Enemy (1)
@@ -2082,6 +2098,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1913728160}
     m_Modifications:
+    - target: {fileID: 309466302, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: TOMAR UMA GELADA
+      objectReference: {fileID: 0}
     - target: {fileID: 1291542023257251805, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
       propertyPath: m_RootOrder
       value: 0

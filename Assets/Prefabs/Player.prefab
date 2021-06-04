@@ -203,9 +203,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012546003, y: -0.045598593}
+  m_Offset: {x: 0.0063344957, y: -0.045598593}
   serializedVersion: 2
-  m_Radius: 0.09909044
+  m_Radius: 0.09099636
 --- !u!114 &3761739380804868355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,6 +224,7 @@ MonoBehaviour:
   enemyForce: 10
   EspinhoForce: 5
   anim: {fileID: 0}
+  fireRate: 0
   isGrounded: 0
   groundCheck: {fileID: 3761739380398582763}
   checkRadius: 0.1
@@ -245,3 +246,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1209475739}
   bullet: {fileID: 4846860123416356662, guid: 69e024fb1de38c34eac37012fb5d6982, type: 3}
+  fireRate: 0.25
