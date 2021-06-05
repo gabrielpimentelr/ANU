@@ -6,11 +6,11 @@ using TMPro;
 public class ChatBubble : MonoBehaviour
 {
     public static ChatBubble instance;
-    public GameObject Enemy;
 
     [SerializeField] private float typingSpeed = 0.05f;
     [SerializeField] public TextMeshProUGUI text;
-    
+    [SerializeField] private Animator anim;
+
     [Header("Frases")]
     [TextArea]
     [SerializeField] private string[] sentences;

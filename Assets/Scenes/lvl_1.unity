@@ -2098,10 +2098,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1913728160}
     m_Modifications:
-    - target: {fileID: 309466302, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
-      propertyPath: sentences.Array.data[2]
-      value: TOMAR UMA GELADA
-      objectReference: {fileID: 0}
     - target: {fileID: 1291542023257251805, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
       propertyPath: m_RootOrder
       value: 0

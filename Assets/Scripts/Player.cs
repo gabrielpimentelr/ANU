@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
     private int extraJumps;
     public Animator anim;
     private float time;
-    public float fireRate;
 
     public bool isGrounded;
     public Transform groundCheck;
@@ -26,11 +25,6 @@ public class Player : MonoBehaviour
     public bool playerDie;
 
     bool isBlowing;
-
-
-  
-    
-
 
     void Start()
     {
@@ -64,7 +58,7 @@ public class Player : MonoBehaviour
         
        
     }
-    // Update is called once per frame
+
     void Update()
     {   
 
@@ -109,6 +103,12 @@ public class Player : MonoBehaviour
           if(other.gameObject.tag == "Saw")
          {
              GameController.instance.LoseLife();
+         }
+         if(other.gameObject.tag == "corote")
+         {
+             GameController.instance.LoseLife();
+             rb.AddForce(new Vector2(0f, enemyForce), ForceMode2D.Impulse);
+             isGrounded = true;
          }
     }
      void OnTriggerStay2D(Collider2D collider)
