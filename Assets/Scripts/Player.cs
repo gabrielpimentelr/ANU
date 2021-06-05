@@ -8,7 +8,8 @@ public class Player : MonoBehaviour
     public float jumpForce;
     public int extraJumpsValue;
     public float enemyForce;
-    public float EspinhoForce;
+    public float espinhoForce;
+    public float wallForce;
     
     public static Player instance;
     public bool facingRight = true;
@@ -93,11 +94,17 @@ public class Player : MonoBehaviour
              GameController.instance.LoseLife();
              rb.AddForce(new Vector2(0f, enemyForce), ForceMode2D.Impulse);
          }
+         if(other.gameObject.layer == 7)
+         {
+             GameController.instance.LoseLife();
+             rb.AddForce(new Vector2(0f, enemyForce), ForceMode2D.Impulse);
+             isGrounded = true;
+         }
 
          if(other.gameObject.tag == "Espinho")
          {
              GameController.instance.LoseLife();
-             rb.AddForce(new Vector2(0f, EspinhoForce), ForceMode2D.Impulse);
+             rb.AddForce(new Vector2(0f, espinhoForce), ForceMode2D.Impulse);
              isGrounded = true;
          }
           if(other.gameObject.tag == "Saw")
@@ -109,6 +116,11 @@ public class Player : MonoBehaviour
              GameController.instance.LoseLife();
              rb.AddForce(new Vector2(0f, enemyForce), ForceMode2D.Impulse);
              isGrounded = true;
+         }
+         if(other.gameObject.tag == "GroundWall")
+         {
+             GameController.instance.LoseLife();
+             rb.AddForce(new Vector2(0f, wallForce), ForceMode2D.Impulse);
          }
     }
      void OnTriggerStay2D(Collider2D collider)

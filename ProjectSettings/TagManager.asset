@@ -10,6 +10,8 @@ TagManager:
   - Saw
   - corote
   - GameMaster
+  - GroundWall
+  - Destroy
   layers:
   - Default
   - TransparentFX
@@ -17,15 +19,15 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Wall
+  - Prova
   - 
   - Enemy
   - Hit
   - Ground
   - DestruirObjetos
   - Fan
-  - 
+  - Cloud
   - 
   - 
   - 
