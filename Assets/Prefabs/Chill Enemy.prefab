@@ -215,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29851a6a58b6a624f94057df86cc6a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 2
   deathEffect: {fileID: 1937266191903354711, guid: 45f24c3f56f0dae4b90cce05c4334bb9, type: 3}
 --- !u!114 &487034425
 MonoBehaviour:
@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde624051af62b242b4dd6e0834a8b10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bc: {fileID: 849812700701540984}
   speed: 1.5
   checkRadius: 0.1
   whatIsGround:
@@ -239,8 +240,6 @@ MonoBehaviour:
     m_Bits: 512
   groundCheck: {fileID: 229689196796026135}
   footGroundCheck: {fileID: 270277795}
+  isGrounded: 0
   time: 0
   movingTime: 1
-  isGrounded: 0
-  bc: {fileID: 849812700701540984}
-  direction: 0

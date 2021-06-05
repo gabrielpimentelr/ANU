@@ -4,21 +4,17 @@ using UnityEngine;
 
 public class Livros : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private GameMaster gameMaster;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
     }
       void OnTriggerEnter2D(Collider2D collider)
     {
         if(collider.gameObject.tag == "Player")
         {
+            gameMaster.lastCheckPointPos = transform.position;
             Destroy(gameObject);
         }
     }
