@@ -45,6 +45,7 @@ public class GameController : MonoBehaviour
             if(livesRemaining <= 0)
             {
                 Player.instance.Die();
+                DeathsAndTime.deathCount++;
             }
         }
     }

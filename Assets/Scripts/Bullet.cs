@@ -9,12 +9,20 @@ public class Bullet : MonoBehaviour
     public int damage;
     public GameObject impactEffect;
     private bool damaged;
-    //commit
+    public float force;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb.velocity = transform.right * speed;
+        //rb.velocity = transform.right * speed;
+        if(Player.instance.facingRight)
+        {
+            rb.velocity = new Vector2(speed, force);
+        }else
+        {
+            rb.velocity = new Vector2(-speed, force);
+        }
+        
     }
 
     void OnTriggerEnter2D(Collider2D other) 

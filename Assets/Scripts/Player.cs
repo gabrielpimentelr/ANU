@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public float EspinhoForce;
     
     public static Player instance;
-    private bool facingRight = true;
+    public bool facingRight = true;
     private float moveInput;
     private Rigidbody2D rb;
     private int extraJumps;

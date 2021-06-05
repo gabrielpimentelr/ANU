@@ -20,6 +20,8 @@ void OnTriggerEnter2D(Collider2D collision)
         if(collision.gameObject.tag == "Player")
         {
             SceneManager.LoadScene(nomeDaCena);
+            Debug.Log(DeathsAndTime.deathCount);
+            Debug.Log(DeathsAndTime.timeCount);
         }
         
 

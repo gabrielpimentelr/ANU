@@ -223,8 +223,8 @@ MonoBehaviour:
   extraJumpsValue: 1
   enemyForce: 10
   EspinhoForce: 5
+  facingRight: 1
   anim: {fileID: 0}
-  fireRate: 0
   isGrounded: 0
   groundCheck: {fileID: 3761739380398582763}
   checkRadius: 0.1
