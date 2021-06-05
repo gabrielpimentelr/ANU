@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078556770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.119, y: -0.04, z: 0}
+  m_LocalPosition: {x: 0.211, y: -0.021, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8981112714761931810}
@@ -161,9 +161,13 @@ MonoBehaviour:
   groundCheck: {fileID: 8981112715556453789}
   footGroundCheck: {fileID: 8981112715911941254}
   isGrounded: 0
+  time: 0
+  movingTime: 1
   player: {fileID: 0}
-  aggroRange: 4
-  shootRange: 2
+  aggroRange: 5
+  mustChase: 0
+  shootRange: 3
+  mustShoot: 0
   chatBubble: {fileID: 8981112715194119574}
 --- !u!58 &8981112714761931821
 CircleCollider2D:
@@ -225,13 +229,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8981112714761931811}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 190a7d7b9f1efc04c93c0523a170db64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2078556771}
-  enemyBullet: {fileID: 0}
+  enemyBullet: {fileID: 99687005727045910, guid: 46c5ff84523ff3e429847d6a06cb035e, type: 3}
   fireRate: 1
 --- !u!1 &8981112714859730138
 GameObject:
