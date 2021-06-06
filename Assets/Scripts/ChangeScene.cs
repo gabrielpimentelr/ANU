@@ -23,6 +23,7 @@ public class ChangeScene : MonoBehaviour
         {
             if(collision.gameObject.tag == "Player")
             {
+                SceneManager.LoadScene(nomeDaCena);
                 startPosition = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>();
                 gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
                 gameMaster.lastCheckPointPos = startPosition.position;
