@@ -33,7 +33,15 @@ public class Bullet : MonoBehaviour
             damaged = true;
             enemy.TakeDamage();
         }
+        HealthBar prova = other.GetComponent<HealthBar>();
+        if(prova != null && !damaged)
+        {
+            damaged = true;
+            prova.LoseHealth(1);
+        }
+
         Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(gameObject);
     }
+
 }

@@ -18,6 +18,7 @@ public class IAAggro : MonoBehaviour
     public bool isGrounded;
     private bool mustTurn;
     private bool isChilling;
+    private bool speedUp;
 
     public float time = 0;
     public float movingTime;
@@ -81,6 +82,11 @@ public class IAAggro : MonoBehaviour
 
     void Chase()
     {
+        if (!speedUp)
+        {
+            speed *= 1.3333333f;
+            speedUp = true;
+        }
         ActivateChat();
 
         //inimigo do lado esquerdo no player, move pra direita
@@ -99,6 +105,11 @@ public class IAAggro : MonoBehaviour
 
     void Chill()
     {
+        if (speedUp)
+        {
+            speed *= 0.75f;
+            speedUp = false;
+        }
         DeactivateChat();
         if(isGrounded && mustTurn)
         {
