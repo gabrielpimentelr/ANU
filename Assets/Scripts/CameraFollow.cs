@@ -9,6 +9,10 @@ public class CameraFollow : MonoBehaviour
     public Vector3 offset;
     public float smoothValue;
 
+    void Awake()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+    }
     void LateUpdate()
     {
         Follow();
