@@ -16,7 +16,7 @@ public class Cloud : MonoBehaviour
         rb.velocity = transform.right * -speed;
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         if(other.gameObject.tag == "Destroy")
         {

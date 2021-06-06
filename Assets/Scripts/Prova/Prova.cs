@@ -6,9 +6,14 @@ public class Prova : MonoBehaviour
 {
     private Rigidbody2D rb;
     public float speed;
-    public float flipTime;
+    public float flipTime; 
 
     private float time;
+
+    public GameObject question;
+    public Transform createPoint;
+    public float createRate;
+    private float createTime;
 
     void Start()
     {
@@ -17,7 +22,14 @@ public class Prova : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
+        createTime += Time.deltaTime;
         Move();
+
+        if(createTime >= createRate)
+        {
+            Instantiate(question, createPoint.position, Quaternion.identity);
+            createTime = 0;
+        }
     }
 
     void Move()

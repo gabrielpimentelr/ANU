@@ -138,6 +138,14 @@ public class Player : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.layer == 9)
+        {
+            GameController.instance.LoseLife();
+        }
+    }
+
     void Flip()
     {
         transform.Rotate(0f, 180f, 0f);

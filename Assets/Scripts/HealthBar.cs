@@ -7,11 +7,16 @@ public class HealthBar : MonoBehaviour
 {
     public Image fillBar;
     public float health;
+    private float damage;
 
-    public void LoseHealth(int damage)
+    void Start()
     {
-        health -= damage;
-        fillBar.fillAmount = health / 100;
+        damage = 100 / health;
+    }
+    public void LoseHealth()
+    {
+        health --;
+        fillBar.fillAmount -= damage / 100;
         if(health <= 0)
         {
             Destroy(gameObject);

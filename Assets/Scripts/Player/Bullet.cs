@@ -37,7 +37,13 @@ public class Bullet : MonoBehaviour
         if(prova != null && !damaged)
         {
             damaged = true;
-            prova.LoseHealth(1);
+            prova.LoseHealth();
+        }
+        Question question = other.GetComponent<Question>();
+        if(question != null && !damaged)
+        {
+            damaged = true;
+            question.TakeDamage();
         }
 
         Instantiate(impactEffect, transform.position, transform.rotation);
