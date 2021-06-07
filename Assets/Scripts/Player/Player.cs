@@ -27,6 +27,8 @@ public class Player : MonoBehaviour
 
     bool isBlowing;
 
+    private float timeStep;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -56,13 +58,18 @@ public class Player : MonoBehaviour
         // cria um círculo no pé do personagem e armazena na variável isGrounded
         isGrounded = Physics2D.OverlapCircle(groundCheck.position,checkRadius,whatIsGround);
 
-        
-       
+
+        if(isGrounded && moveInput != 0 && timeStep >= 0.15f)
+        {
+            FindObjectOfType<AudioManager>().Play("step");
+            timeStep = 0;
+        }
+
     }
 
     void Update()
     {   
-
+        timeStep += Time.deltaTime;
         time += Time.deltaTime;
         // verifica se o personagem está no chão
         if(isGrounded)
@@ -75,9 +82,11 @@ public class Player : MonoBehaviour
         {
             rb.velocity = Vector2.up * jumpForce;
             extraJumps--;
+            FindObjectOfType<AudioManager>().Play("jump");
         } else if(Input.GetButtonDown("Jump") && extraJumpsValue == 0 && isGrounded)
         {
             rb.velocity = Vector2.up * jumpForce;
+            FindObjectOfType<AudioManager>().Play("jump");
         } 
 
         //die
@@ -85,6 +94,7 @@ public class Player : MonoBehaviour
         {
             GameController.instance.Restart();
         }
+
     }
    
    void OnCollisionEnter2D(Collision2D other) 
@@ -149,6 +159,7 @@ public class Player : MonoBehaviour
              GameController.instance.LoseLife();
          }
     }
+
 
     void Flip()
     {

@@ -46,7 +46,7 @@ MonoBehaviour:
   sounds:
   - name: lvl_5
     clip: {fileID: 8300000, guid: d20017675e1d0d44d897762dda68b24f, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     source: {fileID: 0}
     loop: 1
@@ -56,3 +56,27 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 0
+  - name: fire
+    clip: {fileID: 8300000, guid: 679161ff790a32b44a2c01a89c4c58d7, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: hit
+    clip: {fileID: 8300000, guid: 1a974ecc65aa8a443871bb046d9d7688, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: jump
+    clip: {fileID: 8300000, guid: 2a57a2a104a800848b54eac58ee4843c, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: step
+    clip: {fileID: 8300000, guid: cc1a5990523fcae4b8795b13d3e805c5, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1

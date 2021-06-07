@@ -46,6 +46,7 @@ public class Bullet : MonoBehaviour
             question.TakeDamage();
         }
 
+        FindObjectOfType<AudioManager>().Play("hit");
         Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(gameObject);
     }
