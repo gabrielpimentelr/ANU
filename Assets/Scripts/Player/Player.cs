@@ -144,6 +144,10 @@ public class Player : MonoBehaviour
         {
             GameController.instance.LoseLife();
         }
+         if(other.gameObject.tag == "SpikedBall")
+         {
+             GameController.instance.LoseLife();
+         }
     }
 
     void Flip()

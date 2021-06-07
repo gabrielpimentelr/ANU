@@ -12,6 +12,7 @@ TagManager:
   - GameMaster
   - GroundWall
   - Destroy
+  - SpikedBall
   layers:
   - Default
   - TransparentFX
