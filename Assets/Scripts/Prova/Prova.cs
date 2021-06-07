@@ -15,6 +15,8 @@ public class Prova : MonoBehaviour
     public float createRate;
     private float createTime;
 
+    private Animator anim;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

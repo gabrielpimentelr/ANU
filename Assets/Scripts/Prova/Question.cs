@@ -8,6 +8,7 @@ public class Question : MonoBehaviour
     public float speed;
     public Transform [] moveDirections;
     private int randomDirection;
+    private float randomTime;
 
     public int health;
     public Transform [] createDirections;
@@ -21,12 +22,13 @@ public class Question : MonoBehaviour
     {
         instance = this;
         randomDirection = Random.Range(0, moveDirections.Length);
+        randomTime = Random.Range(destroyTime / 2, destroyTime + 1);
     }
     void Update()
     {
         time += Time.deltaTime;
         Move();
-        if(time >= Random.Range(destroyTime / 2, destroyTime + 1))
+        if(time >= randomTime)
         {
             Destroy();
         }
