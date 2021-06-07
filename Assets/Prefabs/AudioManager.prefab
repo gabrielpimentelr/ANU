@@ -76,7 +76,13 @@ MonoBehaviour:
     loop: 0
   - name: step
     clip: {fileID: 8300000, guid: cc1a5990523fcae4b8795b13d3e805c5, type: 3}
-    volume: 0.2
+    volume: 0.05
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Inicio
+    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    volume: 0.3
     pitch: 1
     source: {fileID: 0}
     loop: 1
