@@ -5,7 +5,8 @@ using UnityEngine;
 public class DeathEffect : MonoBehaviour
 {
 
-    public float time = 0;
+    private float time = 0;
+    private bool sound;
 
     void Update()
     {
@@ -13,6 +14,12 @@ public class DeathEffect : MonoBehaviour
         if(time >= 0.292f)
         {
             Destroy(gameObject);
+        }
+
+        if(!sound)
+        {
+            FindObjectOfType<AudioManager>().Play("death_effect");
+            sound = true;
         }
     }
 }

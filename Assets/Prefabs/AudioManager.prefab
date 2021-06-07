@@ -46,7 +46,13 @@ MonoBehaviour:
   sounds:
   - name: lvl_5
     clip: {fileID: 8300000, guid: d20017675e1d0d44d897762dda68b24f, type: 3}
-    volume: 0.7
+    volume: 0.5
     pitch: 1
     source: {fileID: 0}
     loop: 1
+  - name: death_effect
+    clip: {fileID: 8300000, guid: 376b13fd62db0dd4888c15a1ae8ed341, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
