@@ -44,6 +44,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
+  - name: Inicio
+    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: lvl_1
+    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: lvl_2
+    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: lvl_3
+    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: lvl_4
+    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
   - name: lvl_5
     clip: {fileID: 8300000, guid: d20017675e1d0d44d897762dda68b24f, type: 3}
     volume: 0.3
@@ -80,9 +110,9 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - name: Inicio
-    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
-    volume: 0.3
+  - name: player_hit
+    clip: {fileID: 8300000, guid: 639929d8a511feb448d1de9306b3f935, type: 3}
+    volume: 0.2
     pitch: 1
     source: {fileID: 0}
-    loop: 1
+    loop: 0

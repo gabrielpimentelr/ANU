@@ -301,7 +301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49563848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 52.38704, y: 0.044593185, z: 148.76591}
+  m_LocalPosition: {x: 0, y: 0, z: 148.76591}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -28756,30 +28756,6 @@ PrefabInstance:
     - target: {fileID: 840288603364311593, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
-      propertyPath: sounds.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
-      propertyPath: sounds.Array.data[7].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 8a7ca4b2ea25cd14d81c6544dea1c791, type: 3}
-    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
-      propertyPath: sounds.Array.data[7].loop
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
-      propertyPath: sounds.Array.data[7].name
-      value: player_hit
-      objectReference: {fileID: 0}
-    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
-      propertyPath: sounds.Array.data[7].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
-      propertyPath: sounds.Array.data[7].volume
-      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 840288603364311595, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
       propertyPath: m_Name

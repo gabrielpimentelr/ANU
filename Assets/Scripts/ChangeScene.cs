@@ -18,7 +18,12 @@ public class ChangeScene : MonoBehaviour
     public void ChangeS()
     {
         Destroy(audioManager);
-        SceneManager.LoadScene(nomeDaCena);
+            SceneManager.LoadScene(nomeDaCena);
+            startPosition = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>();
+            gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
+            gameMaster.lastCheckPointPos = startPosition.position;
+            Debug.Log(DeathsAndTime.deathCount);
+            Debug.Log(DeathsAndTime.timeCount);
     }
 
     public void Sair()
@@ -35,7 +40,6 @@ public class ChangeScene : MonoBehaviour
                 startPosition = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>();
                 gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
                 gameMaster.lastCheckPointPos = startPosition.position;
-                SceneManager.LoadScene(nomeDaCena);
                 Debug.Log(DeathsAndTime.deathCount);
                 Debug.Log(DeathsAndTime.timeCount);
             }
