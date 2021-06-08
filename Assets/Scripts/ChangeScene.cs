@@ -18,12 +18,12 @@ public class ChangeScene : MonoBehaviour
     public void ChangeS()
     {
         Destroy(audioManager);
-            SceneManager.LoadScene(nomeDaCena);
-            startPosition = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>();
-            gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
-            gameMaster.lastCheckPointPos = startPosition.position;
-            Debug.Log(DeathsAndTime.deathCount);
-            Debug.Log(DeathsAndTime.timeCount);
+        SceneManager.LoadScene(nomeDaCena);
+        startPosition = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>();
+        gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
+        gameMaster.lastCheckPointPos = startPosition.position;
+        Debug.Log("Mortes - Nível: " + SceneManager.GetActiveScene().name + " --- " + DeathsAndTime.deathCount);
+        Debug.Log("Tempo - Nível: " + SceneManager.GetActiveScene().name + " --- " + DeathsAndTime.timeCount);
     }
 
     public void Sair()
@@ -35,13 +35,7 @@ public class ChangeScene : MonoBehaviour
         {
             if(collision.gameObject.tag == "Player")
             {
-                Destroy(audioManager);
-                SceneManager.LoadScene(nomeDaCena);
-                startPosition = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>();
-                gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
-                gameMaster.lastCheckPointPos = startPosition.position;
-                Debug.Log(DeathsAndTime.deathCount);
-                Debug.Log(DeathsAndTime.timeCount);
+                ChangeS();
             }
         }
 }

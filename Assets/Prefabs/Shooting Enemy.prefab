@@ -164,9 +164,9 @@ MonoBehaviour:
   time: 0
   movingTime: 1
   player: {fileID: 0}
-  aggroRange: 5
+  aggroRange: 4
   mustChase: 0
-  shootRange: 3
+  shootRange: 2.5
   mustShoot: 0
   chatBubble: {fileID: 8981112715194119574}
 --- !u!58 &8981112714761931821
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2078556771}
   enemyBullet: {fileID: 99687005727045910, guid: 46c5ff84523ff3e429847d6a06cb035e, type: 3}
-  fireRate: 1
+  fireRate: 1.25
 --- !u!1 &8981112714859730138
 GameObject:
   m_ObjectHideFlags: 0
