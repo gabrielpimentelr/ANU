@@ -8,9 +8,16 @@ public class ChangeScene : MonoBehaviour
     public string nomeDaCena;
     private GameMaster gameMaster;
     private Transform startPosition;
+    private GameObject audioManager;
+
+    void Start()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager");
+    }
 
     public void ChangeS()
     {
+        Destroy(audioManager);
         SceneManager.LoadScene(nomeDaCena);
     }
 
@@ -23,6 +30,7 @@ public class ChangeScene : MonoBehaviour
         {
             if(collision.gameObject.tag == "Player")
             {
+                Destroy(audioManager);
                 SceneManager.LoadScene(nomeDaCena);
                 startPosition = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>();
                 gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();

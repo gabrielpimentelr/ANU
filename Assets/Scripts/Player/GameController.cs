@@ -37,6 +37,7 @@ public class GameController : MonoBehaviour
             time = 0;
             //diminiu o valor das vidas restantes
             livesRemaining--;
+            FindObjectOfType<AudioManager>().Play("player_hit");
 
             //esconde uma imagem de coração
             lives[livesRemaining].enabled = false;
