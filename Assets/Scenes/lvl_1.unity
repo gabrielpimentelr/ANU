@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e8aa4ac6e39c4c4cb37357795cae6eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastCheckPointPos: {x: -4, y: -4}
+  lastCheckPointPos: {x: -5.641444, y: -4.098271}
 --- !u!4 &49563850
 Transform:
   m_ObjectHideFlags: 0
