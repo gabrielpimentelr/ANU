@@ -2,6 +2,7 @@
   "project_info": {
     "project_number": "924821427041",
     "project_id": "projeto-a3",
+    "firebase_url":"https://projeto-a3-default-rtdb.firebaseio.com/",
     "storage_bucket": "projeto-a3.appspot.com"
   },
   "client": [
