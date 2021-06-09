@@ -9,6 +9,7 @@ public class Tear : MonoBehaviour
     {
         if(other.gameObject.tag == "GroundWall") 
         {
+            FindObjectOfType<AudioManager>().Play("water_drop");
             Destroy(gameObject);
         }
     }

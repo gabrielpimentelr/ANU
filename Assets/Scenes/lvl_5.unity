@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tear: {fileID: 8628416486593975111, guid: b75159e77ec51b341926e7a53deac9e1, type: 3}
-  createRate: 5
+  createRate: 6
   time: 0
 --- !u!1 &50058840
 GameObject:
@@ -944,7 +944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c173807e951b1946806b9a586c703ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 0.3
   player: {fileID: 0}
 --- !u!1001 &458068666
 PrefabInstance:
@@ -1583,7 +1583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tear: {fileID: 8628416486593975111, guid: b75159e77ec51b341926e7a53deac9e1, type: 3}
-  createRate: 5
+  createRate: 6
   time: 0
 --- !u!1001 &892675201
 PrefabInstance:
@@ -2331,7 +2331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fillBar: {fileID: 1681165155}
-  health: 50
+  health: 100
   phaseTwo: 0
   phaseThree: 0
   totalHealth: 0
@@ -3046,7 +3046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tear: {fileID: 8628416486593975111, guid: b75159e77ec51b341926e7a53deac9e1, type: 3}
-  createRate: 5
+  createRate: 6
   time: 0
 --- !u!1001 &1560047607
 PrefabInstance:
@@ -3852,6 +3852,26 @@ PrefabInstance:
     - target: {fileID: 840288603364311593, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
+      propertyPath: sounds.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
+      propertyPath: sounds.Array.data[13].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2019bd0f9739c064a8308ca8caa4565d, type: 3}
+    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
+      propertyPath: sounds.Array.data[13].name
+      value: water_drop
+      objectReference: {fileID: 0}
+    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
+      propertyPath: sounds.Array.data[13].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
+      propertyPath: sounds.Array.data[13].volume
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 840288603364311595, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
       propertyPath: m_Name
