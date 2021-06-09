@@ -25,7 +25,6 @@ public class HealthBar : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        Debug.Log(fillBar.fillAmount);
     }
     
 }

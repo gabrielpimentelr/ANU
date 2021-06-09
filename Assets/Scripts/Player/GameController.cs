@@ -46,6 +46,7 @@ public class GameController : MonoBehaviour
             if(livesRemaining <= 0)
             {
                 Player.instance.Die();
+                FindObjectOfType<AudioManager>().Play("player_die");
                 DeathsAndTime.deathCount++;
             }
         }

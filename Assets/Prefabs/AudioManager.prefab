@@ -116,3 +116,9 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 0
+  - name: player_die
+    clip: {fileID: 8300000, guid: 8c076c7479e05d4428c43065894c44f1, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
