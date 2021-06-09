@@ -2009,8 +2009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  offset: {x: 0, y: 0, z: -10}
-  smoothValue: 3
+  smoothValue: 7
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -28756,10 +28755,6 @@ PrefabInstance:
     - target: {fileID: 840288603364311593, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 840288603364311594, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
-      propertyPath: sounds.Array.data[12].volume
-      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 840288603364311595, guid: 4ea5075b93456634e93006b5cc70d9a7, type: 3}
       propertyPath: m_Name

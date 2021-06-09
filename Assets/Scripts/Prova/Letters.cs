@@ -27,7 +27,6 @@ public class Letters : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // se destruir
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.layer == 6 || other.gameObject.tag == "GroundWall") 

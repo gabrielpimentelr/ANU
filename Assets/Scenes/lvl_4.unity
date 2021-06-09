@@ -3634,8 +3634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  offset: {x: 0, y: 0, z: -10}
-  smoothValue: 3
+  smoothValue: 7
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0

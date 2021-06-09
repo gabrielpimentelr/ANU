@@ -5,16 +5,25 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
+    public static HealthBar instance;
+
     public Image fillBar;
     public float health;
     private float damage;
+
+    public bool phaseTwo;
+    public bool phaseThree;
+    public float totalHealth;
 
     private Animator anim;
 
     void Start()
     {
-        damage = 100 / health;
+        instance = this;
+
         anim = GetComponent<Animator>();
+        damage = 100 / health;
+        totalHealth = health;
     }
     public void LoseHealth()
     {
@@ -24,6 +33,16 @@ public class HealthBar : MonoBehaviour
         if(health <= 0)
         {
             Destroy(gameObject);
+        }
+
+        if(health <= totalHealth * 0.7)
+        {
+            phaseTwo = true;
+        }
+
+        if(health <= totalHealth * 0.4)
+        {
+            phaseThree = true;
         }
     }
     

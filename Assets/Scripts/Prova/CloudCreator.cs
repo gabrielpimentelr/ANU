@@ -16,13 +16,13 @@ public class CloudCreator : MonoBehaviour
         time += Time.deltaTime;
         if(time >= createRate)
         {
-            Create();
+            CreateCloud();
             time = 0;
         }
         
     }
 
-    void Create()
+    void CreateCloud()
     {
         Instantiate(cloud, createPoint.position, Quaternion.identity);
     }
