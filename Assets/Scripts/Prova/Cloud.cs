@@ -5,18 +5,22 @@ using UnityEngine;
 public class Cloud : MonoBehaviour
 {
     public float speed;
-    public Rigidbody2D rb;
+
+    //public Rigidbody2D rb;
     //private Transform player;
     //private Transform playerPos;
 
     void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        //rb = GetComponent<Rigidbody2D>();
         //player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
     void Update()
     {
-        rb.velocity = transform.right * -speed;
+        transform.Translate(-speed * Time.deltaTime, 0, 0);
+
+
+        //rb.velocity = transform.right * -speed;
 
         /*
         if(playerPos != null)

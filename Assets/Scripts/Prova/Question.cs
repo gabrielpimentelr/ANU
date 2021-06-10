@@ -16,6 +16,8 @@ public class Question : MonoBehaviour
     private float time;
     public int destroyTime;
     public GameObject deathEffect;
+
+    //public Collider2D collider;
     
 
     void Start()
@@ -63,7 +65,17 @@ public class Question : MonoBehaviour
     {
         if(other.gameObject.layer == 6 || other.gameObject.tag == "GroundWall") 
         {
+            //collider.isTrigger = false;
             speed *= -1;
         }
     }
+    /*
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if(other.gameObject.layer == 6 || other.gameObject.tag == "GroundWall") 
+        {
+            //collider.isTrigger = true;
+        }
+    }
+    */
 }
