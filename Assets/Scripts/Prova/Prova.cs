@@ -32,6 +32,7 @@ public class Prova : MonoBehaviour
             Instantiate(question, createPoint.position, Quaternion.identity);
             createTime = 0;
         }
+
     }
 
     void Move()
