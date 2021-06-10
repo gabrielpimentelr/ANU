@@ -30,10 +30,6 @@ public class HealthBar : MonoBehaviour
         anim.SetTrigger("hit");
         health --;
         fillBar.fillAmount -= damage / 100;
-        if(health <= 0)
-        {
-            Destroy(gameObject);
-        }
 
         if(health <= totalHealth * 0.7)
         {
@@ -43,6 +39,13 @@ public class HealthBar : MonoBehaviour
         if(health <= totalHealth * 0.4)
         {
             phaseThree = true;
+        }
+
+        if(health <= 0)
+        {
+            phaseTwo = false;
+            phaseThree = false;
+            Destroy(gameObject);
         }
     }
     

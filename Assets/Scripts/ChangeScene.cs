@@ -7,7 +7,7 @@ public class ChangeScene : MonoBehaviour
 {
     public string nomeDaCena;
     private GameMaster gameMaster;
-    private Transform startPosition;
+    private Vector2 startPosition;
     private GameObject audioManager;
 
     void Start()
@@ -19,9 +19,11 @@ public class ChangeScene : MonoBehaviour
     {
         Destroy(audioManager);
         SceneManager.LoadScene(nomeDaCena);
-        startPosition = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>();
+        startPosition = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
         gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
-        gameMaster.lastCheckPointPos = startPosition.position;
+        gameMaster.lastCheckPointPos = startPosition;
+        Debug.Log("Start Position: " + startPosition);
+        Debug.Log("check point Position: " + gameMaster.lastCheckPointPos);
         Debug.Log("Mortes - Nível: " + SceneManager.GetActiveScene().name + " --- " + DeathsAndTime.deathCount);
         Debug.Log("Tempo - Nível: " + SceneManager.GetActiveScene().name + " --- " + DeathsAndTime.timeCount);
     }
