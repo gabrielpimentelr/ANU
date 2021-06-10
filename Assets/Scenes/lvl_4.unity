@@ -2715,11 +2715,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5862796896077051420, guid: bc2a1037e19188042870043c49fbbf2b, type: 3}
       propertyPath: speed
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5862796896077051420, guid: bc2a1037e19188042870043c49fbbf2b, type: 3}
       propertyPath: moveTime
-      value: 4.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5862796896077051421, guid: bc2a1037e19188042870043c49fbbf2b, type: 3}
       propertyPath: m_Radius
@@ -6664,11 +6664,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1291542023257251805, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.28
+      value: 64.48
       objectReference: {fileID: 0}
     - target: {fileID: 1291542023257251805, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.3
+      value: 13.83
       objectReference: {fileID: 0}
     - target: {fileID: 1291542023257251805, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10390,11 +10390,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.47
+      value: 63.56
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.1
+      value: -3.95
       objectReference: {fileID: 0}
     - target: {fileID: 3761739380804868354, guid: 8bb2f55dde7a461409ec10f91939c18e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -43603,11 +43603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e8aa4ac6e39c4c4cb37357795cae6eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream
   lastCheckPointPos: {x: -5.85, y: -3.64}
-=======
-  lastCheckPointPos: {x: -7.47, y: -4.15}
->>>>>>> Stashed changes
 --- !u!4 &1339454538
 Transform:
   m_ObjectHideFlags: 0
@@ -53440,11 +53436,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8981112714761931810, guid: db6494bbbdd856e4488abe50d97fc8c5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 66.56
+      value: 63.33
       objectReference: {fileID: 0}
     - target: {fileID: 8981112714761931810, guid: db6494bbbdd856e4488abe50d97fc8c5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.3
+      value: 14.99
       objectReference: {fileID: 0}
     - target: {fileID: 8981112714761931810, guid: db6494bbbdd856e4488abe50d97fc8c5, type: 3}
       propertyPath: m_LocalPosition.z
