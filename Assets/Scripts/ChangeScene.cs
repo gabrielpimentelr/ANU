@@ -22,10 +22,10 @@ public class ChangeScene : MonoBehaviour
         startPosition = GameObject.FindGameObjectWithTag("Respawn").GetComponent<Transform>().position;
         gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
         gameMaster.lastCheckPointPos = startPosition;
-        Debug.Log("Start Position: " + startPosition);
-        Debug.Log("check point Position: " + gameMaster.lastCheckPointPos);
         Debug.Log("Mortes - Nível: " + SceneManager.GetActiveScene().name + " --- " + DeathsAndTime.deathCount);
         Debug.Log("Tempo - Nível: " + SceneManager.GetActiveScene().name + " --- " + DeathsAndTime.timeCount);
+        DeathsAndTime.timeCount = 0;
+        DeathsAndTime.deathCount = 0;
     }
 
     public void Sair()

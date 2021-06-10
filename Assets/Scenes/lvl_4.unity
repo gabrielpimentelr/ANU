@@ -43603,7 +43603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e8aa4ac6e39c4c4cb37357795cae6eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastCheckPointPos: {x: 63.56, y: -3.95}
+  lastCheckPointPos: {x: -5.85, y: -3.64}
 --- !u!4 &1339454538
 Transform:
   m_ObjectHideFlags: 0
@@ -43612,7 +43612,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339454536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 52.38704, y: 0.044593185, z: 148.76591}
+  m_LocalPosition: {x: -5.85, y: -3.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -51736,7 +51736,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063328445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.19, y: -4.21, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
