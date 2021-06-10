@@ -2331,10 +2331,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fillBar: {fileID: 1681165155}
-  health: 70
+  totalHealth: 80
   phaseTwo: 0
   phaseThree: 0
-  totalHealth: 0
 --- !u!50 &1073457742
 Rigidbody2D:
   serializedVersion: 4
@@ -2371,8 +2370,10 @@ MonoBehaviour:
   speed: 0.5
   flipTime: 12
   question: {fileID: 3782060515991939059, guid: 352a8c1623bfdc845a13d2fc13b3bc02, type: 3}
+  error: {fileID: 861443752104727775, guid: b38a038092c8e4e449790e52e1216fd9, type: 3}
   createPoint: {fileID: 377251872}
-  createRate: 5
+  createQuestionRate: 6
+  createErrorRate: 20
 --- !u!95 &1073457744
 Animator:
   serializedVersion: 3

@@ -11,11 +11,11 @@ public class TearCreator : MonoBehaviour
 
     void Start()
     {
-        random = Random.Range(createRate / 2, createRate);
+        random = Random.Range(0, createRate);
     }
     void Update()
     {
-        if(HealthBar.instance.phaseTwo)
+        if(HealthBar.instance.phaseThree)
         {
             time += Time.deltaTime;
             if(time >= random)

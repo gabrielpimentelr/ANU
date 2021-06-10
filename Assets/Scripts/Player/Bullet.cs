@@ -45,6 +45,12 @@ public class Bullet : MonoBehaviour
             damaged = true;
             question.TakeDamage();
         }
+        Error error = other.GetComponent<Error>();
+        if(error != null && !damaged)
+        {
+            damaged = true;
+            error.TakeDamage();
+        }
 
         FindObjectOfType<AudioManager>().Play("hit");
         Instantiate(impactEffect, transform.position, transform.rotation);

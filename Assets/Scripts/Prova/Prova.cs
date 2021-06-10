@@ -11,26 +11,41 @@ public class Prova : MonoBehaviour
     private float time;
 
     public GameObject question;
+    public GameObject error;
     public Transform createPoint;
-    public float createRate;
-    private float createTime;
+    public float createQuestionRate;
+    public float createErrorRate;
+    private float createQuestionTime;
+    private float createErrorTime;
 
     private Animator anim;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        createErrorTime = createErrorRate;
     }
     void Update()
     {
         time += Time.deltaTime;
-        createTime += Time.deltaTime;
+        createQuestionTime += Time.deltaTime;
         Move();
 
-        if(createTime >= createRate)
+        if(createQuestionTime >= createQuestionRate)
         {
             Instantiate(question, createPoint.position, Quaternion.identity);
-            createTime = 0;
+            createQuestionTime = 0;
+        }
+
+        if(HealthBar.instance.phaseTwo)
+        {
+            createErrorTime += Time.deltaTime;
+            if(createErrorTime >= createErrorRate)
+            {
+                Instantiate(error, createPoint.position, Quaternion.identity);
+                createErrorTime = 0;
+                createErrorRate *= 0.9f;
+            }
         }
 
     }

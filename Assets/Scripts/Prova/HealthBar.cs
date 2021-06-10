@@ -8,12 +8,12 @@ public class HealthBar : MonoBehaviour
     public static HealthBar instance;
 
     public Image fillBar;
-    public float health;
+    public float totalHealth;
+    private float health;
     private float damage;
 
     public bool phaseTwo;
     public bool phaseThree;
-    public float totalHealth;
 
     private Animator anim;
 
@@ -22,8 +22,8 @@ public class HealthBar : MonoBehaviour
         instance = this;
 
         anim = GetComponent<Animator>();
-        damage = 100 / health;
-        totalHealth = health;
+        damage = 100 / totalHealth;
+        health = totalHealth;
     }
     public void LoseHealth()
     {

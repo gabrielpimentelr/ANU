@@ -15,7 +15,7 @@ public class TearsController : MonoBehaviour
 
     void Update()
     {
-        if(HealthBar.instance.phaseTwo)
+        if(HealthBar.instance.phaseThree)
         {
             Move();
         }
