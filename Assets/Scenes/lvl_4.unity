@@ -2715,11 +2715,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5862796896077051420, guid: bc2a1037e19188042870043c49fbbf2b, type: 3}
       propertyPath: speed
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5862796896077051420, guid: bc2a1037e19188042870043c49fbbf2b, type: 3}
       propertyPath: moveTime
-      value: 3
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 5862796896077051421, guid: bc2a1037e19188042870043c49fbbf2b, type: 3}
       propertyPath: m_Radius
