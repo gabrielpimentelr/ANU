@@ -15,10 +15,13 @@ public class TearsController : MonoBehaviour
 
     void Update()
     {
+        Move();
+        /*
         if(HealthBar.instance.phaseThree)
         {
             Move();
         }
+        */
         
     }
 
