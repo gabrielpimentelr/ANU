@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "924821427041",
-    "project_id": "projeto-a3",
-    "firebase_url":"https://projeto-a3-default-rtdb.firebaseio.com/",
-    "storage_bucket": "projeto-a3.appspot.com"
+    "project_number": "193475515206",
+    "firebase_url": "https://anu-projeto-default-rtdb.firebaseio.com/",
+    "project_id": "anu-projeto",
+    "storage_bucket": "anu-projeto.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:924821427041:android:d35e9f7cb3b11e0542ab20",
+        "mobilesdk_app_id": "1:193475515206:android:7b8077303d3384f76e0b47",
         "android_client_info": {
           "package_name": "com.DefaultCompany.ANU"
         }
       },
       "oauth_client": [
         {
-          "client_id": "924821427041-19d9l3umelgh9hmnlfcoednko80qodfq.apps.googleusercontent.com",
+          "client_id": "193475515206-fvd3h39imss212eek7lrdrhgrl2v4d21.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDW2zLt8_mx82iNhLPRqiiP-1waJsSWKog"
+          "current_key": "AIzaSyDbHfRfwC7Yq6PeKd-CdTrN9-zHlvIgny4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "924821427041-19d9l3umelgh9hmnlfcoednko80qodfq.apps.googleusercontent.com",
+              "client_id": "193475515206-fvd3h39imss212eek7lrdrhgrl2v4d21.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
