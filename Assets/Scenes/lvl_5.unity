@@ -2331,7 +2331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fillBar: {fileID: 1681165155}
-  totalHealth: 80
+  totalHealth: 70
   phaseTwo: 0
   phaseThree: 0
 --- !u!50 &1073457742
