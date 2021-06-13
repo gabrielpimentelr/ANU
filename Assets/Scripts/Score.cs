@@ -32,6 +32,17 @@ public class Score : MonoBehaviour
                 Debug.Log("Erro");
             }
         });
+
+        //pega valor no banco
+        reference.Child("User").Child(user.UserName).GetValueAsync().ContinueWith(task =>
+        {
+            if(task.IsCompleted){
+                Debug.Log("sucesso");
+            }
+            else{
+                Debug.Log("Erro");
+            }
+        });
     }
     void Update()
     {
