@@ -34,10 +34,10 @@ public class ChangeScene : MonoBehaviour
         gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
         gameMaster.lastCheckPointPos = startPosition;
         DeathsAndTime.running = true;
-        Cursor.visible = false;
         Time.timeScale = 1;
         DeathsAndTime.timeCount = 0;
         DeathsAndTime.deathCount = 0;
+        PauseGame.instance.gamePaused = false;
     }
 
     public void Sair()
@@ -47,7 +47,7 @@ public class ChangeScene : MonoBehaviour
 
     public void ScoreView()
     {
-        Cursor.visible = true;
+        PauseGame.instance.gamePaused = true;
         scoreLvl.text = SceneManager.GetActiveScene().name;
         scoreDeaths.text = DeathsAndTime.deathCount.ToString();
         scoreTime.text = DeathsAndTime.niceTime;

@@ -6,36 +6,38 @@ public class PauseGame : MonoBehaviour
 {
     public bool gamePaused = false;
     public GameObject pauseMenu;
+    public static PauseGame instance;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        instance = this;
     }
 
     // Update is called once per frame
     void Update()
     {
-    if (Input.GetButtonDown("Cancel"))
-    {
-        if (gamePaused == false)
+        if(!gamePaused)
         {
-            Time.timeScale = 0;
-            gamePaused = true;
-            Cursor.visible = true;
-            pauseMenu.SetActive(true);
-            DeathsAndTime.running = false;
-        }
-        else 
-        {
-            pauseMenu.SetActive(false);
             Cursor.visible = false;
-            gamePaused = false;
-            Time.timeScale = 1;
-            DeathsAndTime.running = true;
+        }else
+        {
+            Cursor.visible = true;
+        }
+
+        if (Input.GetButtonDown("Cancel"))
+        {
+            if (!gamePaused)
+            {
+                Pause();
+            }
+            else 
+            {
+                UnpauseGame();
+            }
         }
     }
-}
+
     public void UnpauseGame()
     {
         pauseMenu.SetActive(false);
@@ -43,6 +45,15 @@ public class PauseGame : MonoBehaviour
         gamePaused = false;
         Time.timeScale = 1;
         DeathsAndTime.running = true;
+    }
+
+    public void Pause()
+    {
+        Time.timeScale = 0;
+        gamePaused = true;
+        Cursor.visible = true;
+        pauseMenu.SetActive(true);
+        DeathsAndTime.running = false;
     }
 }
 
