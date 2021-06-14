@@ -15,7 +15,7 @@ public class Livros : MonoBehaviour
         if(collider.gameObject.tag == "Player")
         {
             gameMaster.lastCheckPointPos = transform.position;
-            FindObjectOfType<AudioManager>().Play("heal");
+            FindObjectOfType<AudioManager>().Play("book");
             Destroy(gameObject);
         }
     }

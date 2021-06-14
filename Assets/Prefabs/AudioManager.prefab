@@ -122,9 +122,9 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 0
-  - name: heal
+  - name: book
     clip: {fileID: 8300000, guid: 8486774e7e166314da1008ce95bd22f2, type: 3}
-    volume: 0.5
+    volume: 0.8
     pitch: 1
     source: {fileID: 0}
     loop: 0
