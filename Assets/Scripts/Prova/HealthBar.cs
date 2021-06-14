@@ -46,6 +46,7 @@ public class HealthBar : MonoBehaviour
             phaseTwo = false;
             phaseThree = false;
             Destroy(gameObject);
+            ChangeScene.instance.ScoreView();
         }
     }
     

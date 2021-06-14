@@ -25,6 +25,7 @@ public class PauseGame : MonoBehaviour
             gamePaused = true;
             Cursor.visible = true;
             pauseMenu.SetActive(true);
+            DeathsAndTime.running = false;
         }
         else 
         {
@@ -32,6 +33,7 @@ public class PauseGame : MonoBehaviour
             Cursor.visible = false;
             gamePaused = false;
             Time.timeScale = 1;
+            DeathsAndTime.running = true;
         }
     }
 }
