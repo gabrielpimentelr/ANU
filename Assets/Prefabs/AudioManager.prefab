@@ -57,19 +57,19 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 1
   - name: lvl_2
-    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    clip: {fileID: 8300000, guid: aacc007e69653fc43924bc52d61ef55a, type: 3}
     volume: 0.3
     pitch: 1
     source: {fileID: 0}
     loop: 1
   - name: lvl_3
-    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    clip: {fileID: 8300000, guid: 8c72b8f9b8b0b9248a5cd4c9bf63e7cb, type: 3}
     volume: 0.3
     pitch: 1
     source: {fileID: 0}
     loop: 1
   - name: lvl_4
-    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    clip: {fileID: 8300000, guid: 1da7f65f8d113c7468fc38ebb6efd08c, type: 3}
     volume: 0.3
     pitch: 1
     source: {fileID: 0}
@@ -119,6 +119,12 @@ MonoBehaviour:
   - name: player_die
     clip: {fileID: 8300000, guid: 8c076c7479e05d4428c43065894c44f1, type: 3}
     volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: heal
+    clip: {fileID: 8300000, guid: 8486774e7e166314da1008ce95bd22f2, type: 3}
+    volume: 0.5
     pitch: 1
     source: {fileID: 0}
     loop: 0

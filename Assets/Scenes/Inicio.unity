@@ -893,6 +893,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeDaCena: 
+  scoreView: 0
+  score: {fileID: 0}
+  scoreLvl: {fileID: 0}
+  scoreDeaths: {fileID: 0}
+  scoreTime: {fileID: 0}
 --- !u!1001 &131695521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1340,6 +1345,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 661100978}
+    - target: {fileID: 1291542023257251806, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1291542023257251811, guid: fe887d77942a6024f8ff27441c5b0420, type: 3}
       propertyPath: m_Name
       value: Aggro Enemy
@@ -2267,6 +2276,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeDaCena: 
+  scoreView: 0
+  score: {fileID: 0}
+  scoreLvl: {fileID: 0}
+  scoreDeaths: {fileID: 0}
+  scoreTime: {fileID: 0}
 --- !u!114 &489841826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11649,6 +11663,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeDaCena: lvl_1
+  scoreView: 0
+  score: {fileID: 0}
+  scoreLvl: {fileID: 0}
+  scoreDeaths: {fileID: 0}
+  scoreTime: {fileID: 0}
 --- !u!114 &2008404432
 MonoBehaviour:
   m_ObjectHideFlags: 0

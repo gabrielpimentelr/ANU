@@ -16,7 +16,6 @@ public class PauseGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Cursor.visible = false;
     if (Input.GetButtonDown("Cancel"))
     {
         if (gamePaused == false)
@@ -38,12 +37,13 @@ public class PauseGame : MonoBehaviour
     }
 }
     public void UnpauseGame()
-{
-            pauseMenu.SetActive(false);
-            Cursor.visible = false;
-            gamePaused = false;
-            Time.timeScale = 1;
-}
+    {
+        pauseMenu.SetActive(false);
+        Cursor.visible = false;
+        gamePaused = false;
+        Time.timeScale = 1;
+        DeathsAndTime.running = true;
+    }
 }
 
 
