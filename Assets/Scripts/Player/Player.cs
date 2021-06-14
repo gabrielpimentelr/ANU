@@ -132,6 +132,11 @@ public class Player : MonoBehaviour
              GameController.instance.LoseLife();
              rb.AddForce(new Vector2(0f, wallForce), ForceMode2D.Impulse);
          }
+         if(other.gameObject.layer == 12)
+         {
+             Die();
+             
+         }
     }
      void OnTriggerStay2D(Collider2D collider)
     {
