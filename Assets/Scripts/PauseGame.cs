@@ -16,6 +16,7 @@ public class PauseGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Cursor.visible = false;
     if (Input.GetButtonDown("Cancel"))
     {
         if (gamePaused == false)
