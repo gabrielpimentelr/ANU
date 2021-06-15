@@ -19,6 +19,8 @@ public class ChangeScene : MonoBehaviour
     public TextMeshProUGUI scoreLvl;
     public TextMeshProUGUI scoreDeaths;
     public TextMeshProUGUI scoreTime;
+    public TextMeshProUGUI totalScoreDeaths;
+    public TextMeshProUGUI totalScoreTime;
 
     void Start()
     {
@@ -35,6 +37,8 @@ public class ChangeScene : MonoBehaviour
         gameMaster.lastCheckPointPos = startPosition;
         DeathsAndTime.running = true;
         Time.timeScale = 1;
+        DeathsAndTime.totalDeath += DeathsAndTime.deathCount;
+        DeathsAndTime.totalTime += DeathsAndTime.timeCount;
         DeathsAndTime.timeCount = 0;
         DeathsAndTime.deathCount = 0;
         PauseGame.instance.gamePaused = false;
@@ -51,6 +55,21 @@ public class ChangeScene : MonoBehaviour
         scoreLvl.text = SceneManager.GetActiveScene().name;
         scoreDeaths.text = DeathsAndTime.deathCount.ToString();
         scoreTime.text = DeathsAndTime.niceTime;
+        
+        Time.timeScale = 0;
+        scoreView = true;
+        score.SetActive(true);
+        DeathsAndTime.running = false;
+    }
+
+    public void FinalScoreView()
+    {
+        PauseGame.instance.gamePaused = true;
+        scoreLvl.text = SceneManager.GetActiveScene().name;
+        scoreDeaths.text = DeathsAndTime.deathCount.ToString();
+        scoreTime.text = DeathsAndTime.niceTime;
+        totalScoreDeaths.text = DeathsAndTime.totalDeath.ToString();
+        totalScoreTime.text = DeathsAndTime.niceTotalTime;
         
         Time.timeScale = 0;
         scoreView = true;
