@@ -45,13 +45,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Inicio
-    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    clip: {fileID: 8300000, guid: ee32ae36ea2df6c4b94fb3cf4cec32fc, type: 3}
     volume: 0.3
     pitch: 1
     source: {fileID: 0}
     loop: 1
   - name: lvl_1
-    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
+    clip: {fileID: 8300000, guid: 7dc0d72d680ed6241b4aa4fe927e96ed, type: 3}
     volume: 0.3
     pitch: 1
     source: {fileID: 0}
@@ -63,7 +63,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 1
   - name: lvl_3
-    clip: {fileID: 8300000, guid: 8c72b8f9b8b0b9248a5cd4c9bf63e7cb, type: 3}
+    clip: {fileID: 8300000, guid: db1a751880f52c04cbc54a8df358e6ef, type: 3}
     volume: 0.3
     pitch: 1
     source: {fileID: 0}
