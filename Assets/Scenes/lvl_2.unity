@@ -4644,6 +4644,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1311412005501700975, guid: b4db1ce600ebe2c4393806c316648609, type: 3}
+      propertyPath: m_Target.x
+      value: 21.57122
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311412005501700975, guid: b4db1ce600ebe2c4393806c316648609, type: 3}
+      propertyPath: m_Target.y
+      value: -0.75874555
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4db1ce600ebe2c4393806c316648609, type: 3}
 --- !u!4 &599308399 stripped
@@ -40173,14 +40181,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1311412005501700975, guid: b4db1ce600ebe2c4393806c316648609, type: 3}
-      propertyPath: m_Target.x
-      value: 53.89122
-      objectReference: {fileID: 0}
-    - target: {fileID: 1311412005501700975, guid: b4db1ce600ebe2c4393806c316648609, type: 3}
-      propertyPath: m_Target.y
-      value: 2.1912544
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4db1ce600ebe2c4393806c316648609, type: 3}
 --- !u!4 &1476538318 stripped
@@ -44233,6 +44233,8 @@ MonoBehaviour:
   scoreLvl: {fileID: 0}
   scoreDeaths: {fileID: 0}
   scoreTime: {fileID: 0}
+  totalScoreDeaths: {fileID: 0}
+  totalScoreTime: {fileID: 0}
 --- !u!114 &2033260031
 MonoBehaviour:
   m_ObjectHideFlags: 0
