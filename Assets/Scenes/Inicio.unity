@@ -9124,7 +9124,7 @@ MonoBehaviour:
   passwordLoginField: {fileID: 1278578439}
   warningLoginText: {fileID: 1027467949}
   confirmLoginText: {fileID: 998035166}
-  tela: {fileID: 2008404429}
+  tela: {fileID: 780880004}
   sair: {fileID: 489841823}
   sair_tela: {fileID: 123623288}
   login_tela: {fileID: 422971792}
